@@ -131,8 +131,6 @@ void setup() {
     "influxdb_bucket", "InfluxDB bucket", influxdb_bucket, 32);
   WiFiManagerParameter param_influxdb_token(
     "influxdb_token", "InfluxDB token", influxdb_token, 32);
-  WiFiManagerParameter param_influxdb_token(
-    "influxdb_token", "InfluxDB token", influxdb_token, 32);
 
   wifiManager.addParameter(&param_influxdb_url);
   wifiManager.addParameter(&param_influxdb_org);
