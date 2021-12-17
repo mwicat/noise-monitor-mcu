@@ -2,6 +2,11 @@
 
 For server-side part of this project, see [noise-monitor-infra](https://github.com/mwicat/noise-monitor-infra)
 
+<figure>
+<a href="docs/diagrams/architecture.png"><img src="docs/diagrams/architecture.png" width="100%" alt="High-level architecture"></a>
+<figcaption>High-level architecture</figcaption>
+</figure>
+
 ## How it works
 
 - Monitors line level audio signal on TRS jack socket
