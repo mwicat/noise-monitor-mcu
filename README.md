@@ -1,5 +1,6 @@
 # Noise level monitor using ESP8266 and InfluxDB
 
+For server-side part of this project, see [noise-monitor-infra](https://github.com/mwicat/noise-monitor-infra)
 ## How it works
 
 - Monitors line level audio signal on TRS jack socket
