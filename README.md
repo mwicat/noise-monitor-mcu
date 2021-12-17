@@ -20,7 +20,7 @@ digital pin `D5` will blink
 
 <figure>
 <a href="docs/fritzing/noise_monitor_schem.png"><img src="docs/fritzing/noise_monitor_schem.png" width="100%" alt="Circuit schematic"></a>
-<figcaption>Circuit schematic
+<figcaption>Circuit schematic</figcaption>
 </figure>
 
 
@@ -40,3 +40,10 @@ If you want MCU to forget credentials and settings that you provided and
 eventually spawn again wireless AP and enter the settings again, you can
 use reset switch which connects D1 pin to ground. In this case, firmware
 should clear its memory.
+
+## In action
+
+<figure>
+<a href="docs/photo_simplified.jpeg"><img src="docs/photo_simplified.jpeg" width="100%" alt="Simplified realization"></a>
+<figcaption>Simplified realization</figcaption>
+</figure>
