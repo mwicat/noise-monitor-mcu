@@ -5,13 +5,23 @@
 - Monitors line level audio signal on TRS jack socket
 - Transforms audio signal into volume envelope signal with
 [Envelope detector circuit](https://en.wikipedia.org/wiki/Envelope_detector)
-- [ESP8266 microcontroller](https://en.wikipedia.org/wiki/ESP8266) samples envelope signal on analog input pin A0
+- [ESP8266 microcontroller](https://en.wikipedia.org/wiki/ESP8266) samples envelope signal on analog input pin `A0`
 - Visualises volume envelope by modulating blue LED brightness with PWM signal
+on digital pin `D6`
 - Converts amplitude to dB volume and sends to remote InfluxDB service
 via Wi-fi connection
+- On every successful write to InfluxDB service, the green LED connected to
+digital pin `D5` will blink
 
+<figure>
 <a href="docs/fritzing/noise_monitor_bb.png"><img src="docs/fritzing/noise_monitor_bb.png" width="100%" alt="Breadboard project"></a>
+<figcaption>Breadboard project</figcaption>
+</figure>
+
+<figure>
 <a href="docs/fritzing/noise_monitor_schem.png"><img src="docs/fritzing/noise_monitor_schem.png" width="100%" alt="Circuit schematic"></a>
+<figcaption>Circuit schematic
+</figure>
 
 
 ## Usage
